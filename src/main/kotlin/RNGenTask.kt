@@ -28,7 +28,7 @@ open class RNGenTask : DefaultTask(){
             }
             File("TEST.md").writeText(ReleaseNote.toString())
 
-            println(project?.extensions?.extraProperties?.get("as400programs"))
+            println(project?.extensions?.extraProperties)
 
         }catch (e: Exception){
             e.printStackTrace()

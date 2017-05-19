@@ -71,7 +71,7 @@ class RnGeneratorPlugin  : Plugin<Project>{
                 File("TEST.md").writeText(ReleaseNote.toString())
 
 
-                println(project?.extensions?.extraProperties?.get("as400programs"))
+                //println(project?.extensions?.extraProperties?.get("as400programs"))
 
             }catch (e: Exception){
                 e.printStackTrace()
