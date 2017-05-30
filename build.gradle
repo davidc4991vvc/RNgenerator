@@ -14,7 +14,7 @@ buildscript {
     }
 }
 
-buildDir = '/Users/sapelkinav/Google Диск/jars/gradlePlugin'
+buildDir = '/Users/sapelkinav/Dropbox/artifactory/RnGen'
 
 apply plugin: 'groovy'
 apply plugin: 'java'

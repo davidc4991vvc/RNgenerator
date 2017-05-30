@@ -10,7 +10,7 @@ open class RNGenTask : DefaultTask(){
     fun genRN(){
         try{
             val properties = project?.extensions?.extraProperties?.properties
-
+            val programs = project?.properties?.get("as400programs")
             val ReleaseNote= md {
                 h1{+"Release Notes"}
                 h2{+"${properties?.get("retailDescription")}"}
@@ -28,7 +28,7 @@ open class RNGenTask : DefaultTask(){
             }
             File("TEST.md").writeText(ReleaseNote.toString())
 
-            println(project?.extensions?.extraProperties)
+
 
         }catch (e: Exception){
             e.printStackTrace()
