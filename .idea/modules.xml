@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RnGen.iml" filepath="$PROJECT_DIR$/.idea/modules/RnGen.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RnGen_main.iml" filepath="$PROJECT_DIR$/.idea/modules/RnGen_main.iml" group="RnGen" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RnGen_test.iml" filepath="$PROJECT_DIR$/.idea/modules/RnGen_test.iml" group="RnGen" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GenerateRN.iml" filepath="$PROJECT_DIR$/.idea/modules/GenerateRN.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GenerateRN_main.iml" filepath="$PROJECT_DIR$/.idea/modules/GenerateRN_main.iml" group="GenerateRN" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GenerateRN_test.iml" filepath="$PROJECT_DIR$/.idea/modules/GenerateRN_test.iml" group="GenerateRN" />
     </modules>
   </component>
 </project>

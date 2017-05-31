@@ -2,6 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="GenerateRN_main" target="1.5" />
+      <module name="GenerateRN_test" target="1.5" />
       <module name="RnGen_main" target="1.5" />
       <module name="RnGen_test" target="1.5" />
     </bytecodeTargetLevel>
